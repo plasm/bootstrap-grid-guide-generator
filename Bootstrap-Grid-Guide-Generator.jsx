@@ -68,8 +68,8 @@ function GriGenerator(cols, unitVertical, gutterVertical) {
   }
 }
 
-var cols   = Number ( prompt ( 'Numero di colonne:' , 12 ) );
-var width  = Number ( prompt ( 'Larghezza della singola colonna:' , 68 ) );
-var gutter = Number ( prompt ( 'Gutter' , 15 ) );
+var cols   = Number ( prompt ( 'Number of columns:' , 12 ) );
+var width  = Number ( prompt ( 'Column width:' , 68 ) );
+var gutter = Number ( prompt ( 'Gutter width' , 15 ) );
 
 GriGenerator(cols, width, gutter);
